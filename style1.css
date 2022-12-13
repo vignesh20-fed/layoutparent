@@ -1,0 +1,319 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+/*--------- box height ------------*/
+.box{
+	font-size:50px;
+	text-align:center;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+}
+/*------------- all container width ------------*/
+.container{
+	width:85%;
+	margin:0 auto;
+}
+/*=====================	flex-direction:column==================*/
+.column{
+	display:flex;
+	flex-direction:column;
+}
+.col{
+	width:20%;
+}
+/*=====================	flex-direction:column-reverse==================*/
+.columnreverse{
+	display:flex;
+	flex-direction:column-reverse;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	flex-direction:ro==================*/
+.row{
+	display:flex;
+	flex-direction:row;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	flex-direction:row-reverse==================*/
+
+.rowreverse{
+	display:flex;
+	flex-direction:row-reverse;
+}
+.col{
+	width:20%;
+}
+/*=====================	flex-wrap ==================*/
+.wrap{
+	display:flex;
+	flex-wrap:wrap;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	flex-wrap=wrap-reverse ==================*/
+.wrapreverse{
+	display:flex;
+	flex-wrap:wrap-reverse;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	flex-flow ==================*/
+.flexflow{
+	display:flex;
+	flex-flow:row-reverse wrap;
+}
+.col{
+	width:70%;
+}
+/*=====================	justify-content=left ==================*/
+
+.left{
+	display:flex;
+	justify-content:left;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	justify-content=center ==================*/
+.center{
+	display:flex;
+	justify-content:center;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	justify-content=right==================*/
+.right{
+	display:flex;
+	justify-content:right;
+}
+.col{
+	width:20%;
+}
+/*=====================	justify-content=space-around ==================*/
+.spacearound{
+	display:flex;
+	justify-content:space-around;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	justify-content=space-between ==================*/
+.spacebetween{
+	display:flex;
+	justify-content:space-between;
+}
+.col{
+	width:20%;
+}
+
+/*=====================	justify-content=space-evenly ==================*/
+.spaceevenly{
+	display:flex;
+	justify-content:space-evenly;
+}
+.col{
+	width:20%;
+}
+
+/*===================== align-items:flex-start	 ==================*/
+.alignstart{
+	display:flex;
+	align-items:flex-start;
+}
+.col{
+	width:20%;
+}
+
+.box1{
+	height:60vh;
+	background-color:red;
+	border:5px solid gray;
+}
+/*===================== align-items:center	 ==================*/
+.aligncenter{
+	display:flex;
+	align-items:center;
+}
+.col{
+	width:20%;
+}
+.box1{
+	height:90vh;
+	background-color:red;
+	border:5px solid gray;
+}
+/*===================== align-items:flex-end	 ==================*/
+.alignend{
+	display:flex;
+	align-items:flex-end;
+}
+.col{
+	width:20%;
+}
+.box1{
+	height:90vh;
+	background-color:red;
+	border:5px solid gray;
+}
+/*===================== align-items:baseline	 ==================*/
+.baseline{
+	display:flex;
+	align-items:baseline;
+	
+}
+.col{
+	width:20%;
+}
+.box8{
+	height:10vh;
+	background-color:red;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+
+.box9{
+	height:10vh;
+	background-color:red;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+
+/*===================== align-content:center	 ==================*/
+
+.content{
+	display:flex;
+    flex-wrap:wrap;
+	align-content:center;
+	background-color:blue;
+	height:500px;
+	
+}
+.col{
+	width:20%;
+}
+.boxcont{
+		height:10vh;
+	background-color:red;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+/*===================== align-contant:flex-start	 ==================*/
+.start{
+	display:flex;
+    flex-wrap:wrap;
+	align-content:flex-start;
+	background-color:blue;
+	height:500px;
+	
+}
+.col{
+	width:20%;
+}
+.boxcont{
+		height:10vh;
+	background-color:red;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+
+/*===================== align-items:flex-end	 ==================*/
+
+.end{
+	display:flex;
+    flex-wrap:wrap;
+	align-content:flex-end;
+	background-color:blue;
+	height:500px;
+	
+}
+.col{
+	width:20%;
+}
+.boxcont{
+		height:10vh;
+	background-color:red;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+/*===================== align-items:space-between ==================*/
+.contentbetween{
+	display:flex;
+    flex-wrap:wrap;
+	align-content:space-between;
+	background-color:blue;
+	height:500px;
+	
+}
+.col{
+	width:20%;
+}
+.boxcont{
+		height:10vh;
+	background-color:red;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+/*===================== align-items:space-around ==================*/
+.contentaround{
+	display:flex;
+    flex-wrap:wrap;
+	align-content:space-around;
+	background-color:blue;
+	height:500px;
+	
+}
+.col{
+	width:20%;
+}
+.boxcont{
+		height:10vh;
+	background-color:red;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+/*=========================  align-items:space-stretch ====================*/
+.contentstretch{
+	display:flex;
+	align-items:stretch;
+	height:100vh;
+	background-color:blue;
+	
+}
+.col{
+	width:20%;
+}
+.boxcon{
+		
+	background-color:red;
+	border:5px solid gray;
+	font-size:px;
+	text-align:center;
+}
+
+
+
+
